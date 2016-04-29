@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var OfertasSchema = new Schema({
+var OfferSchema = new Schema({
     Empresa: String,
     Contacto:{ type: Schema.Types.ObjectId, ref: "Users" },
     TelefonoContacto:Number,
