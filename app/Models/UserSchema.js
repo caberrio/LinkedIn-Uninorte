@@ -8,7 +8,7 @@ var UsuarioSchema = new Schema({
     Telefono:Number,
     User:String,
     Contrasena:String,
-    Codigo:Number,,
+    Codigo:Number,
     Carrera:String,
     Semestre:Number
     Amigos: [
