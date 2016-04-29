@@ -10,7 +10,7 @@ var UsuarioSchema = new Schema({
     Contrasena:String,
     Codigo:Number,
     Carrera:String,
-    Semestre:Number
+    Semestre:Number,
     Amigos: [
     	{ type: Schema.Types.ObjectId, ref: "Users" }
     ]
