@@ -10,4 +10,4 @@ var OfertasSchema = new Schema({
     HorasTrabajo:Number,
     Carrera:String,
 });
-module.exports = mongoose.model('Oferta',OfertaSchema);
+module.exports = mongoose.model('Oferta',OfferSchema);
