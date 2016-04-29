@@ -1,7 +1,7 @@
 var basicAuth = require("basic-auth");
 
-var Users = require("./models/UsuarioSchema");
-var Coffee = require("./models/OfertaSchema");
+var Users = require("./models/UserSchema");
+var Coffee = require("./models/OfferSchema");
 
 var auth = function (req, res, next) {
     function unauthorized(res) {
