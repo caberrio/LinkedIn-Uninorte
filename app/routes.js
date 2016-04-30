@@ -61,14 +61,14 @@ module.exports = function(app) {
 
             var new_user = new Users({
                 Name: req.body.name,
-                LastName:req.body.lastName,
-                Email:req.body.email,
-                Telefono:req.body.telephone,
-                User:req.body.username,
-                Contrasena:req.body.password,
-                Codigo:req.body.code,
-                Carrera:req.body.career,
-                Semestre:req.body.semester,
+                LastName: req.body.lastName,
+                Email: req.body.email,
+                Telefono: req.body.telephone,
+                User: req.body.username,
+                Contrasena: req.body.password,
+                Codigo: req.body.code,
+                Carrera: req.body.career,
+                Semestre: req.body.semester,
             });
 
             new_user.save(function(err) {
