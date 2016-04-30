@@ -1,0 +1,42 @@
+
+body{ background-color: #34504D;}
+.Logo{
+	position: absolute;
+	top: 12px;
+	right:10px;
+	width:250px;
+	height:140px;
+}
+
+.I_header{
+	background-color:black;
+	height:150px; 
+}
+.I_sesion {
+position: absolute;
+top: 40%; 
+left:40%;
+}
+.R_registro{
+position: absolute;
+top: 20%; 
+left:40%;
+}
+
+.I_Finicio input[type="text"]{
+   margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.I_Finicio input[type="password"]{
+   margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.I_sesion-cabecera{
+	margin-left: -50px;
+
+}
+.R_Fregistro{
+	margin-top:-30px;
+}
