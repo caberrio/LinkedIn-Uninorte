@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/home.css"/>
+    <script type="text/javascript" src="js/cambiarPestanna.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <title>Home - LinkenIn Uninorte </title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="titulo">LinkenIn Uninorte</div>
+        <div id="pestanas">
+            <ul id=lista>
+                <li id="pestana1"><a href='javascript:cambiarPestanna(pestanas,pestana1);'>Profile</a></li>
+                <li id="pestana2"><a href='javascript:cambiarPestanna(pestanas,pestana2);'>Jobs offers</a></li>
+            </ul>
+        </div>
+ 
+        <body onload="javascript:cambiarPestanna(pestanas,pestana1);">
+ 
+        <div id="contenidopestanas">
+            <div id="cpestana1">
+                    <section id="P_section">
+                        <p> aca ira la foto</p>
+                      
+                    </section>
+
+                  <aside id="P_aside">
+                    aca iria la lista de amigoss
+                   </aside>
+
+                   <article id="P_article">
+                        aca iria la informacion del man
+                    </article>
+                
+            </div>
+            <div id="cpestana2">
+                 <section id="O_section">
+                        <p> aca ira la foto del trabajo</p>
+                      
+                    </section>
+
+                  <aside id="O_aside">
+                    trabajos
+                   </aside>
+
+                   <article id="O_article">
+                      info del trabajo
+                    </article>
+                
+            </div>
+    </div>
+</body>
+</html>
+</pre>
