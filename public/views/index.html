@@ -1,32 +1,30 @@
-<!DOCTYPE HTML>
-<html>  
-<body>
-<form action="" method="post" ng-submit="register()>
-Name: <input type="text" ng-model="name" name="name"><br>
-Lastname:<input type="text" ng-model="lastName" name="lastname"><br>
-Email: <input type="text" ng-model="email" name="email"><br>
-Telefono: <input type="text"  ng-model="telephone" name="telefono"><br>
-Usuario: <input type="text" ng-model="username" name="usuario"><br>
-Contrasena: <input type="password" ng-model="password" name="contrasena"><br>
-Codigo: <input type="text" ng-model="code" name="codigo"><br>
-Carrera: <input type="text" ng-model="career" name="carrera"><br>
-Semestre: <select ng-model="semester">
-  <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5</option>
-  <option value="6">6</option>
-  <option value="7">7</option>
-  <option value="8">8</option>
-  <option value="9">9</option>
-  <option value="10">10</option>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</select>
-<br>
+        <base href="/">
 
-<input type="submit">
-</form>
+        <title>LinkedIn Uninorte</title>
+        
+        
 
-</body>
+
+
+        <script src="libs/jquery/dist/jquery.js"></script>
+
+        <script src="libs/angular/angular.min.js"></script>
+        <script src="libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script src="libs/angular-cookies/angular-cookies.min.js"></script>
+        
+        <script src="js/services/LoginService.js"></script>
+        <script src="js/controllers/LoginController.js"></script>
+        <script src="js/controllers/RegisterController.js"></script>
+        <script src="js/app.js"></script>
+    </head>
+    <body ng-app="LinkedIn Uninorte">
+        <div class="container" ui-view></div>
+    </body>
 </html>
