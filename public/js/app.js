@@ -9,7 +9,7 @@ app.run(["$rootScope", "$cookieStore", "$http", "$state", function($rootScope, $
         if (toState.data.public === false) {
             if (!$rootScope.globals.authenticated || $rootScope.globals.authenticated == false) {
                 event.preventDefault();
-                $state.go("home.login");
+                //$state.go("home.login");
             }
         }
     });
