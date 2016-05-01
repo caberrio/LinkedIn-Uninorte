@@ -1,4 +1,4 @@
-var app = angular.module('LinkedInUninorte', ['appRoutes', 'ngCookies', 'MainCtrl', 'LoginCtrl', 'RegisterCtrl']);
+var app = angular.module('LinkedInUninorte', ['appRoutes', 'ngCookies', 'LoginCtrl', 'RegisterCtrl']);
 app.run(["$rootScope", "$cookieStore", "$http", "$state", function($rootScope, $cookieStore, $http, $state) {
     $rootScope.globals = $cookieStore.get("globals") || {};
     if ($rootScope.globals.currentUser) {
