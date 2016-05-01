@@ -7,7 +7,9 @@ angular.module('appRoutes', ["ui.router"]).config(["$stateProvider", "$urlRouter
             url: "",
             templateUrl: "views/inicio.html",
             controller: "LoginController",
-            abstract: true
+            data: {
+                public: true
+            }
         })
         
         .state("register", {
