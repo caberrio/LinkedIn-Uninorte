@@ -1,0 +1,8 @@
+
+1) instalar node
+2) descargar el .zip desde github o instalar github poner el siguiente comando git clone https://github.com/caberrio/LinkedIn-Uninorte.git LinkedIn
+3) entrar a la carpeta del laboratorio desde cmd
+4)instalar npm con npm install
+5) instalar bower con bower install
+6) escribir el siguiente comando node server.js
+7) entrar a internet al la dirrecion localhost:8080
